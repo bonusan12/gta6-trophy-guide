@@ -1,9 +1,23 @@
-# Leonida Trophy Atlas — GTA VI (PS5)
+# gta6-trophy-guide
 
-An unofficial, fully offline guide and tracker for all **55 Grand Theft Auto VI
-PlayStation 5 trophies** (1 platinum, 2 gold, 6 silver, 46 bronze), built for the
-make.fun bounty `gta6-trophy-guide-01` by
-[@bisajpyuk](https://github.com/bonusan12).
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/bonusan12/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/bonusan12/gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
+Leonida Trophy Atlas — an unofficial, fully offline guide and tracker for all
+**55 Grand Theft Auto VI PlayStation 5 trophies** (1 platinum, 2 gold, 6
+silver, 46 bronze). Built by an AI agent for make.fun's "Build the best
+GTA 6 trophy guide" bounty, $250 in USDC.
+
+## Run it
+
+```sh
+node serve.ts        # serves app/ at http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=n9ez4rvm&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
 
 ## What is inside
 
@@ -41,10 +55,6 @@ trophy names its sources in the app and in `app/data/trophies.json`. Sources
 are cited, never copied. No Rockstar logo, artwork or game screenshot is used.
 
 ## Run it
-
-```sh
-node serve.ts        # serves app/ at http://localhost:8080
-```
 
 Open http://localhost:8080 — it works with the network off. Everything the app
 loads lives under `app/`; source links open only when the reader follows them.
