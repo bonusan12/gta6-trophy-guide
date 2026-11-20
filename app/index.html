@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Atlas — GTA VI trophy guide &amp; tracker (all 55)</title>
+<meta name="description" content="An unofficial, offline guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: a roadmap to the platinum, missable flags, cited guides, and a checklist that saves your progress.">
+<link rel="stylesheet" href="atlas.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Unofficial fan guide &middot; Grand Theft Auto VI &middot; PlayStation 5</p>
+    <h1>Leonida Trophy Atlas</h1>
+    <p class="standfirst">All 55 trophies — official names, descriptions and grades, a guide in our own words with its sources, a six-stage roadmap to the platinum, and a tracker that remembers what you have earned. Fully offline; nothing here calls home.</p>
+    <div class="meter" aria-label="Trophy progress">
+      <div class="meter-top"><strong id="meterText">0 of 55 earned</strong><span id="meterPct">0%</span></div>
+      <div class="meter-track"><div id="meterFill"></div></div>
+      <p class="meter-grades" id="meterGrades"></p>
+    </div>
+    <p class="demo-flag" id="demoFlag" hidden>Demo preset: 7 story trophies are ticked so you can see the tracker working. Your own progress is saved in this browser.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="roadmap" aria-labelledby="roadmapHeading">
+    <h2 id="roadmapHeading">Roadmap to the platinum — <span class="plat">Vice Got a Price!</span></h2>
+    <p class="roadmap-lede">PowerPyx rates the platinum 4/10 difficulty and around 200 hours, in a single playthrough. There are no online trophies, no difficulty settings and no mission replay, and free-roam carries on after the story. Cheats switch trophies off, so leave them alone. Keep a manual save at the start and end of each chapter (15 manual slots). The stages below are built from the official trophy descriptions.</p>
+    <aside class="missable-callout" id="missableCallout">⚠ Just 1 trophy can be missed: <strong>Positive Mental Attitude</strong> — meditate on the balcony with Lucia at Jason&rsquo;s house (after <em>Down to Earth</em>) before Chapter 1 ends. Everything else can be finished after the story in free-roam.</aside>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section class="toolbar" aria-label="Tracker controls">
+    <div class="toolbar-row">
+      <label class="search-field">Search <input id="searchBox" type="search" placeholder="Trophy, mission or keyword…" autocomplete="off"></label>
+      <label class="spoiler-field"><input id="spoilerToggle" type="checkbox"> 🙈 Spoiler-free — hide story trophy names &amp; descriptions until earned</label>
+    </div>
+    <div class="toolbar-row" id="kindRow" role="group" aria-label="Filter by kind">
+      <button type="button" data-kind="all" class="kind-btn on">All 55</button>
+      <button type="button" data-kind="story" class="kind-btn">Story</button>
+      <button type="button" data-kind="missable" class="kind-btn">⚠ Missable</button>
+      <button type="button" data-kind="collectibles" class="kind-btn">Collectibles</button>
+      <button type="button" data-kind="activities" class="kind-btn">Activities</button>
+      <button type="button" data-kind="online" class="kind-btn">Online</button>
+    </div>
+    <div class="toolbar-row">
+      <label>Grade <select id="gradePick"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+      <label><input id="unearnedToggle" type="checkbox"> Unearned only</label>
+      <button id="exportBtn" type="button">⬇ Export progress</button>
+      <label class="import-btn">⬆ Import progress <input id="importPick" type="file" accept="application/json,.json"></label>
+      <button id="resetBtn" type="button">Reset progress</button>
+    </div>
+    <p class="toolbar-note" id="toolbarNote"></p>
+  </section>
+
+  <section aria-label="Trophy checklist">
+    <p class="list-meta"><span id="listCount"></span><span>Tick a trophy when you earn it — it stays ticked in this browser. Click a trophy to open its guide.</span></p>
+    <ul class="cards" id="cards"></ul>
+    <p class="no-match" id="noMatch" hidden></p>
+  </section>
+
+  <section class="sources" aria-labelledby="sourcesHeading">
+    <h2 id="sourcesHeading">Sources &amp; honesty note</h2>
+    <p>Official trophy names, descriptions and grades are as PlayStation publishes them (listed by Exophase and PSNProfiles, checked 20 Nov 2026). Every guide above is written in our own words for this entry and names its source beside it — a source is cited, never copied.</p>
+    <ul id="sourceList"></ul>
+    <p><strong>What is not confirmed yet:</strong> the game only came out on 19 November 2026, so a few methods are still being confirmed by the public guides. <em>Positive Mental Attitude</em> is the one potentially missable trophy and it is unconfirmed whether its Chapter 1 meditation counts; <em>Fair Game</em>’s exact animal is unconfirmed; <em>The Truth Is Out There</em> and <em>Ten Pin</em> are reported methods still being confirmed. Those four guides say so in plain language — nothing here presents an unconfirmed method as fact, and no trophy name or unlock method is invented.</p>
+    <p class="fineprint">Unofficial fan guide. Not affiliated with Rockstar Games, Take-Two Interactive, Sony Interactive Entertainment or PlayStation. No Rockstar logo, artwork or game screenshot is used here; the look is our own.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Leonida Trophy Atlas — built by @bisajpyuk · <a href="https://github.com/bonusan12/gta6-trophy-guide">github.com/bonusan12/gta6-trophy-guide</a> · MIT License</p>
+</footer>
+
+<script type="module" src="atlas.js"></script>
+</body>
+</html>
